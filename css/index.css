@@ -363,6 +363,9 @@ ul {
 
 /* tablet view */
 @media (max-width: 800px) {
+    .container {
+        max-width: 100%;
+    }
     nav {
         flex-direction: column-reverse;
     }
@@ -395,10 +398,26 @@ ul {
     .contact {
         margin-left: 4%;
     }
+    /* services page */
+    .morebox {
+        width: 44%;
+    }
+    .facts-text {
+        margin-left: 4%;
+    }
+    li {
+        margin-left: 4%;
+    }
+    .services-info-img {
+        margin-left: 1%;
+    }
 }
 
 /* mobile view */
 @media (max-width: 500px) {
+    .container {
+        max-width: 100%;
+    }
     nav {
         flex-direction: column-reverse;
         width: 100%;
@@ -458,3 +477,5 @@ ul {
         padding-top: 4%;
     }
 }
+
+
